@@ -35,19 +35,19 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Location',
-      details: ['Loni, Pune', 'Maharashtra, India'],
+      details: ['Doorly Creatives LLP MIT TBI, 5th Floor,Chanakya Building,Rambaug Colony Paud Road, Kothrud,Pune Pin code: 411038', 'Maharashtra, India,'],
       gradient: 'from-cyan-500/20 to-blue-500/20',
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@doorelycreative.com', 'contact@doorelycreative.com'],
+      details: ['rakasuraj@gmail.com', 'contact@doorelycreative.com'],
       gradient: 'from-blue-500/20 to-purple-500/20',
     },
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 XXX XXX XXXX', 'Mon-Fri 9:00 AM - 6:00 PM IST'],
+      details: ['+91 8446607179', 'Mon-Fri 9:00 AM - 6:00 PM IST'],
       gradient: 'from-purple-500/20 to-pink-500/20',
     },
   ];
