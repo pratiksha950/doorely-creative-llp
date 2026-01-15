@@ -1,6 +1,5 @@
 import { Mail, Phone, MapPin, Send, Clock, Globe } from 'lucide-react';
 import { useState, FormEvent } from 'react';
-import { supabase } from '../lib/supabase';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -16,17 +15,7 @@ export default function Contact() {
     setStatus('loading');
 
     try {
-      const { error } = await supabase.from('contacts').insert([
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone || null,
-          message: formData.message,
-        },
-      ]);
-
-      if (error) throw error;
-
+      // Form submission logic here
       setStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' });
 
